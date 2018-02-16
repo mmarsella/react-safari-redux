@@ -1,0 +1,32 @@
+{
+  "name": "react-safari-redux",
+  "version": "1.0.0",
+  "description": "A Safari implementation of react-chrome-redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmarsella/react-safari-redux.git"
+  },
+  "keywords": [
+    "react",
+    "safari",
+    "redux"
+  ],
+  "author": "Mark Marsella, Sam Hastings",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmarsella/react-safari-redux/issues"
+  },
+  "homepage": "https://github.com/mmarsella/react-safari-redux#readme",
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.2.0",
+    "babel-plugin-transform-async-to-generator": "^6.22.0",
+    "babel-polyfill": "^6.22.0",
+    "babel-preset-es2015": "^6.3.13"
+  }
+}

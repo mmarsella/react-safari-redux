@@ -17,10 +17,6 @@ import tabAid from './safariTabID';  // handles attaching tab IDs to safari tabs
  * @return {undefined}
  */
 
-// array of objs that contain:  tabID, unsubscribe()
-let proxyStores = [];
-tabAid.checkAllTabsForID();
-
 const promiseResponder = (dispatchResult, send) => {
   Promise
     .resolve(dispatchResult)
@@ -44,6 +40,10 @@ export default (store, {
   portName,
   dispatchResponder
 }) => {
+
+  // array of objs that contain:  tabID, unsubscribe()
+  let proxyStores = [];
+  tabAid.checkAllTabsForID();
 
   if (!portName) {
     throw new Error('portName is required in options');

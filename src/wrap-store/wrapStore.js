@@ -6,7 +6,7 @@ import {
 } from '../constants';
 
 import shallowDiff from './shallowDiff';
-import tabAid from './safariTabID/safariTabID.js';  // handles attaching tab IDs to safari tabs and getting a tab.
+import tabAid from './safariTabID';  // handles attaching tab IDs to safari tabs and getting a tab.
 
 
 // console.log('******' , shallowDiff)

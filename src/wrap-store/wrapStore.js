@@ -3,7 +3,7 @@ import {
   STATE_TYPE,
   PATCH_STATE_TYPE,
   STORE_INIT,
-} from './constants';
+} from '../constants';
 
 import shallowDiff from './shallowDiff';
 import tabAid from './safariTabID/safariTabID.js';  // handles attaching tab IDs to safari tabs and getting a tab.

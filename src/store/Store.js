@@ -5,7 +5,7 @@ import {
   DIFF_STATUS_UPDATED,
   DIFF_STATUS_REMOVED,
   STORE_INIT,
-} from './constants';
+} from '../constants';
 
 const backgroundErrPrefix = '\nLooks like there is an error in the background page. ' +
   'You might want to inspect your background page for more details.\n';

@@ -1,7 +1,7 @@
 import {
   DIFF_STATUS_UPDATED,
   DIFF_STATUS_REMOVED
-} from './constants';
+} from '../constants';
 
 /**
  * Returns a new Object containing only the fields in `new` that differ from `old`

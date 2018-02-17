@@ -1,6 +1,6 @@
 {
   "name": "react-safari-redux",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Safari implementation of react-chrome-redux",
   "main": "lib/index.js",
   "scripts": {

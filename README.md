@@ -14,4 +14,7 @@ This package is available on [npm](https://www.npmjs.com/package/react-safari-re
 npm install react-safari-redux
 ```
 
+## Demo
+An example using `react-safari-redux` can be found here:  [react-safari-redux-example](https://github.com/mmarsella/react-safari-redux-example)
+
 Coming Soon:  Functionality with popovers.

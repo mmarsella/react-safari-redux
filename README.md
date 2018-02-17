@@ -6,4 +6,12 @@ Safari extensions built with the Safari Extension Builder.
 
 Currently supports linking the extension background and content/injected scripts.  
 
+## Installation
+
+This package is available on [npm](https://www.npmjs.com/package/react-safari-redux):
+
+```
+npm install react-safari-redux
+```
+
 Coming Soon:  Functionality with popovers.
